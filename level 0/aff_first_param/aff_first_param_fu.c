@@ -6,7 +6,7 @@
 /*   By: miwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/06 00:29:30 by miwang            #+#    #+#             */
-/*   Updated: 2018/07/06 00:50:22 by miwang           ###   ########.fr       */
+/*   Updated: 2018/07/06 00:58:08 by miwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,8 @@
 
 void	aff_first_param(char *str)
 {
-	int i;
-
-	i = 0;
-	while (str[i])
-	{
-		write(1, &str[i], 1);
-		i++;
-	}
+	while (*str)
+		write(1, str++, 1);
 }
 
 int		main(int ac, char **av)
