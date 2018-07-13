@@ -6,7 +6,7 @@
 /*   By: miwang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/12 19:19:35 by miwang            #+#    #+#             */
-/*   Updated: 2018/07/12 19:42:39 by miwang           ###   ########.fr       */
+/*   Updated: 2018/07/12 19:43:16 by miwang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		ft_strlen(char *str)
 	return (len);
 }
 
-char 	*ft_strrev(char *str)		//using ft_swamp concept
+char 	*ft_strrev(char *str)		//using ft_swamp concept to change the char
 {
 	char tmp;
 	int	 len;
